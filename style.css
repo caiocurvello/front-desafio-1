@@ -1,3 +1,5 @@
+
+
 .grid-element {
     display: grid;
     grid-template-rows: 70px 696px 696px 696px 70px;
@@ -25,6 +27,18 @@
 .links {
     align-self: center;
     margin-right: 169px;
+    font-size: 14px;
+    font-family: open sans-serif;
+    font-weight: 400px;
+    display: grid;
+    grid-template-columns: 24px 24px 24px;
+    column-gap: 48px;
+    
+}
+
+.linksline {
+    text-decoration:none;
+    color: black;
 }
 
   .card1 {
@@ -42,6 +56,10 @@
     grid-row-end: 4;
     background-color: chartreuse;
     margin-right: 140px;
+    display: grid;
+    grid-template-columns: 380px;
+    grid-template-rows: 52px 362px 857px;
+    row-gap: 25px;
   }
 
 .card3 {
@@ -117,6 +135,25 @@ margin-left: 24px;
     position: absolute;
     text-align: center;
     font-family: open sans-serif;
+    color: black;
     font-size: 14px;
     font-weight: 400px;
+    cursor: pointer;  
+}
+
+.button:hover {
+ background-color: #FE0078;
+ color: white;
+
+}
+
+.categoria {
+    display: grid;
+    grid-template-columns: 340px;
+    grid-template-rows: 96px 54px 54px 54px 54px 54px 54px;
+}
+
+.espaco {
+    display: flex;
+    justify-content: space-between;
 }
