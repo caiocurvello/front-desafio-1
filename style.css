@@ -1,0 +1,122 @@
+.grid-element {
+    display: grid;
+    grid-template-rows: 70px 696px 696px 696px 70px;
+    grid-template-columns: 920px 520px;
+    row-gap: 56px;
+    column-gap: 50px;
+  }
+  
+  .inicio {
+    position: relative;
+    width: 1440px;
+    height: 2428px;
+    background-color: #f5f5f5;
+    color: red;
+  } 
+
+  .cabecalho {
+ grid-column-start: 1;
+ grid-column-end: 3;
+ display: flex;
+ justify-content: space-between;
+ background-color: violet;
+  }
+
+.links {
+    align-self: center;
+    margin-right: 169px;
+}
+
+  .card1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: yellow;
+    margin-left: 140px;
+  }
+
+  .card2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: chartreuse;
+    margin-right: 140px;
+  }
+
+.card3 {
+    background-color: blue;
+    margin-left: 140px;
+}
+
+
+.card4 {
+    background-color: coral;
+    margin-left: 140px;
+}
+
+
+  .card5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+width: 218,01px;
+height: 42,6px;
+align-self: center;
+margin-left: 140px;
+  }
+
+  .img {
+      width: 100%;
+  }
+
+  .texto1 {
+font-size: 24px;
+margin-left: 24px;
+
+  }
+
+  .p1 {
+      font-family: open sans-serif;
+      font-size: 12px;
+      font-weight: 400px;
+      margin-left: 24px;
+    
+  }
+
+  .p2 {
+    font-family: open sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-left: 24px;
+    margin-right: 24px;
+  
+}
+
+.copy {
+    font-family: open sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.button {
+    all: unset;
+    border-radius: 20px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    width: 154px;
+    height: 43px;
+    margin-left: 600px;
+    margin-top: 24px;
+    position: absolute;
+    text-align: center;
+    font-family: open sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+}
