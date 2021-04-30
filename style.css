@@ -150,10 +150,40 @@ margin-left: 24px;
 .categoria {
     display: grid;
     grid-template-columns: 340px;
-    grid-template-rows: 96px 54px 54px 54px 54px 54px 54px;
+    grid-template-rows: 38px 42px 42px 42px 42px 42px 42px;
+    line-height: 10px;
 }
 
 .espaco {
     display: flex;
     justify-content: space-between;
+    margin-left: 33px;
+    align-items: center;
+    font-family: open sans-serif;
+    font-size: 14px;
+}
+
+.barra {
+    width: 2px;
+    height: 38px;
+    background-color: #FE0078;
+    margin-left: 20px;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.categoria2 {
+    margin-left: 13px;
+    align-self: center;
+    font-family: open sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.publicidade {
+ display: grid;
+ grid-template-columns: 340px;
+ grid-template-rows: 38px 240px 240px 240px;
 }
