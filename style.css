@@ -13,7 +13,7 @@
     width: 1440px;
     height: 2428px;
     background-color: #f5f5f5;
-    color: red;
+    color:black;
   } 
 
   .cabecalho {
@@ -39,6 +39,14 @@
 .linksline {
     text-decoration:none;
     color: black;
+}
+
+.linksline2 {
+    text-decoration:none;
+}
+
+.linksline2:hover {
+    color: white;
 }
 
   .card1 {
@@ -186,4 +194,22 @@ margin-left: 24px;
  display: grid;
  grid-template-columns: 340px;
  grid-template-rows: 38px 240px 240px 240px;
+ row-gap: 20px;
+}
+
+.img2 {
+width: 340px;
+height: 240px;
+margin-left: 20px;
+} 
+
+.pesquisa {
+margin: 20px 20px 20px 20px;
+width: 340px;
+font-family: open sans-serif;
+font-weight: 400;
+font-size: 14px;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+border-radius: 10px;
 }
