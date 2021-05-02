@@ -1,9 +1,7 @@
-
-
 .grid-element {
     display: grid;
-    grid-template-rows: 70px 696px 696px 696px 70px;
-    grid-template-columns: 64% 36%;
+    grid-template-rows: 70px 1152px 33px 70px 203px 43px 70px;
+    grid-template-columns: 64% 34%;
     row-gap: 46px;
     column-gap: 0px;
   }
@@ -11,7 +9,7 @@
   .inicio {
     position: relative;
     width: 1440px;
-    height: 2400px;
+    height: 1916px;
     background-color: #f5f5f5;
     color:black;
   } 
@@ -19,6 +17,7 @@
   .cabecalho {
  grid-column-start: 1;
  grid-column-end: 3;
+ width: 1440px;
  display: flex;
  justify-content: space-between;
  background-color: white;
@@ -56,38 +55,64 @@
     grid-column-end: 2;
     background-color: white;
     margin-left: 140px;
+    height: 1152px;
     width: 730px;
   }
 
   .card2 {
     grid-column-start: 2;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 6;
     background-color: white;
     margin-right: 140px;
+    height: 1396px;
     width: 380px;
-    height: 98%;
     display: grid;
     grid-template-columns: 380px;
     grid-template-rows: 52px 362px 857px;
     row-gap: 25px;
   }
 
-.card3 {
-    background-color: white;
-    margin-left: 140px;
-    width: 730px;
+  .card3 {
+      margin-left: 140px;
+  }
+
+  .card4 {
+      font-size: 12px;
+      margin-left: 140px;
+      display: flex;
+      margin-top: 24px;
+    }
+
+
+
+  .input {
+      width: 354px;
+  }
+
+.input:hover {
+    border-color: #FE0078;
 }
 
-
-.card4 {
-    background-color: white;
-    margin-left: 140px;
-    width: 730px;
+  .txtarea {
+    width: 750px;
+    margin-left: 0px;
+    margin-right: 50px;
 }
 
+.txtarea:hover {
+    border-color: #FE0078;
+}
 
   .card5 {
+    font-size: 12px;  
+    margin-left: 140px;
+    display: flex;
+}
+
+
+
+.card7 {
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: black;
@@ -131,6 +156,7 @@ margin-left: 24px;
 }
 
 .copy {
+    width: 1440px;
     font-family: open sans-serif;
     font-size: 14px;
     font-weight: 400px;
@@ -144,7 +170,32 @@ margin-left: 24px;
     box-sizing: border-box;
     width: 154px;
     height: 43px;
-    margin-left: 550px;
+    margin-left: 540px;
+    margin-top: 440px;
+    position: absolute;
+    text-align: center;
+    font-family: open sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;  
+}
+
+
+.button:hover {
+ background-color: #FE0078;
+ color: white;
+
+}
+
+.button2 {
+    all: unset;
+    border-radius: 20px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    width: 154px;
+    height: 43px;
+    margin-left: 600px;
     margin-top: 24px;
     position: absolute;
     text-align: center;
@@ -155,10 +206,9 @@ margin-left: 24px;
     cursor: pointer;  
 }
 
-.button:hover {
- background-color: #FE0078;
- color: white;
-
+.button2:hover {
+    background-color: #FE0078;
+    color: white;
 }
 
 .categoria {
@@ -218,4 +268,5 @@ font-size: 14px;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 border-radius: 10px;
-}
+} 
+
