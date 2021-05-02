@@ -1,0 +1,339 @@
+.grid-element {
+    display: grid;
+    grid-template-rows: 70px 998px 33px 70px 203px 43px 70px;
+    grid-template-columns: 64% 34%;
+    row-gap: 46px;
+    column-gap: 0px;
+  }
+  
+  .inicio {
+    position: relative;
+    width: 1440px;
+    height: 1570px;
+    background-color: #f5f5f5;
+    color:black;
+  } 
+
+  .cabecalho {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+     }
+   
+   .links {
+       align-self: center;
+       margin-right: 169px;
+       font-size: 14px;
+       font-family: open sans-serif;
+       font-weight: 400px;
+       display: grid;
+       grid-template-columns: 24px 24px 24px;
+       column-gap: 48px;
+       
+   }
+   
+   .linksline {
+       text-decoration:none;
+       color: black;
+   }
+   
+   .linksline2 {
+       text-decoration:none;
+   }
+   
+   .linksline2:hover {
+       color: white;
+   }
+   
+     .card1 {
+       grid-row-start: 2;
+       grid-row-end: 3;
+       grid-column-start: 1;
+       grid-column-end: 2;
+       background-color: white;
+       margin-left: 140px;
+       height: 998px;
+       width: 730px;
+     }
+   
+     .card2 {
+       grid-column-start: 2;
+       grid-row-start: 2;
+       grid-row-end: 6;
+       background-color: white;
+       margin-right: 140px;
+       height: 1396px;
+       width: 380px;
+       display: grid;
+       grid-template-columns: 380px;
+       grid-template-rows: 52px 362px 857px;
+       row-gap: 25px;
+     }
+   
+     .card3 {
+         margin-left: 140px;
+     }
+   
+     .card4 {
+         font-size: 14px;
+         margin-left: 24px;
+         display: grid;
+         grid-template-columns: 300px 300px;
+         column-gap: 25px;
+         margin-top: 24px;
+       }
+   
+   
+
+       .card5 {    
+        font-size: 14px;  
+        margin-left: 24px;
+        display: grid;
+        grid-template-rows: 13px 22px;
+    }
+
+
+      .card6 {
+          margin-left: 24px;
+          margin-top: 25px;
+          font-size: 14px;
+      }
+   
+     .input {
+         width: 300px;
+         height: 20px;
+     }
+   
+   .input:hover {
+       border-color: #FE0078;
+   }
+
+   .input2 {
+       width: 625px;
+       height: 20px;
+       margin-top: 3px;
+   }
+
+   .input2:hover {
+    border-color: #FE0078;
+   }
+   
+     .txtarea {
+       width: 625px;
+       height: 176px;
+       margin-left: 0px;
+       margin-right: 50px;
+   }
+   
+   .txtarea:hover {
+       border-color: #FE0078;
+   }
+   
+  
+   
+   
+   
+   .card7 {
+       grid-column-start: 1;
+       grid-column-end: 3;
+       background-color: black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+   
+     .logo {
+   width: 218,01px;
+   height: 42,6px;
+   align-self: center;
+   margin-left: 140px;
+     }
+   
+     .img {
+         width: 100%;
+     }
+   
+     .texto1 {
+   font-size: 24px;
+   margin-left: 24px;
+   
+     }
+
+     p {
+        font-family: Open sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 24px;
+        
+     }
+   
+    h1 {
+        font-family: Open sans-serif;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     letter-spacing: 0em;
+     text-align: left;
+     margin-left: 24px;
+    } 
+
+
+  h2 {
+     
+     font-family: Open sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     letter-spacing: 0em;
+     text-align: left;
+     margin-left: 24px;
+  }
+
+
+  h3 {
+    font-family: Open sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: 30px 30px;
+      grid-template-rows: 30px;
+      margin-left: 24px;
+  }
+   
+  .margintop {
+      margin-top: 12px;
+  }
+
+  .margintop2 {
+    margin-top: 25px;
+  }
+
+   .copy {
+       width: 1440px;
+       font-family: open sans-serif;
+       font-size: 14px;
+       font-weight: 400px;
+       color: white;
+       height: 70px;
+   }
+   
+   .button {
+       all: unset;
+       border-radius: 20px;
+       border: 1px solid #FE0078;
+       box-sizing: border-box;
+       width: 154px;
+       height: 43px;
+       margin-left: 540px;
+       margin-top: 140px;
+       position: absolute;
+       text-align: center;
+       font-family: open sans-serif;
+       color: black;
+       font-size: 14px;
+       font-weight: 400px;
+       cursor: pointer;  
+   }
+   
+   
+   .button:hover {
+    background-color: #FE0078;
+    color: white;
+   
+   }
+   
+   .button2 {
+       all: unset;
+       border-radius: 20px;
+       border: 1px solid #FE0078;
+       box-sizing: border-box;
+       width: 154px;
+       height: 43px;
+       margin-left: 600px;
+       margin-top: 24px;
+       position: absolute;
+       text-align: center;
+       font-family: open sans-serif;
+       color: black;
+       font-size: 14px;
+       font-weight: 400px;
+       cursor: pointer;  
+   }
+   
+   .button2:hover {
+       background-color: #FE0078;
+       color: white;
+   }
+   
+   .categoria {
+       display: grid;
+       grid-template-columns: 340px;
+       grid-template-rows: 38px 42px 42px 42px 42px 42px 42px;
+       line-height: 10px;
+   }
+   
+   .espaco {
+       display: flex;
+       justify-content: space-between;
+       margin-left: 33px;
+       align-items: center;
+       font-family: open sans-serif;
+       font-size: 14px;
+   }
+   
+   .barra {
+       width: 2px;
+       height: 38px;
+       background-color: #FE0078;
+       margin-left: 20px;
+   }
+   
+   .flex2 {
+       display: flex;
+   }
+   
+   .categoria2 {
+       margin-left: 13px;
+       align-self: center;
+       font-family: open sans-serif;
+       font-weight: 700;
+       font-size: 18px;
+   }
+   
+   .publicidade {
+    display: grid;
+    grid-template-columns: 340px;
+    grid-template-rows: 38px 240px 240px 240px;
+    row-gap: 20px;
+   }
+   
+   .img2 {
+   width: 340px;
+   height: 240px;
+   margin-left: 20px;
+   } 
+   
+   .pesquisa {
+   margin: 20px 20px 20px 20px;
+   width: 340px;
+   font-family: open sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   border: 1px solid #EEEEEE;
+   box-sizing: border-box;
+   border-radius: 10px;
+   } 
